@@ -1,4 +1,8 @@
-The Super.js libraries are a collection of classes that were originally written for building [Ruby/JS desktop apps](http://bowlineapp.com). However, they've evolved beyond that and are at a stage when you can build a fully fledged  JavaScript application framework using them. The Super libraries are much closer to jQuery than say, Sproutcore or Cappuccino. The aim is a modular set of libraries that you can use independently and don't completely abstract away the DOM. 
+The Super.js libraries are a collection of classes that were originally written for building [Ruby/JS desktop apps](http://bowlineapp.com). However, they've evolved beyond that and are at a stage when you can build a fully fledged  JavaScript application framework using them. The Super.js libraries are much closer to jQuery than say, Sproutcore or Cappuccino. The aim is a simple, modular set of libraries that you can use independently and don't completely abstract away the DOM. 
+
+##Example Application
+
+I've ported Jerome Gravel-Niquet's excellent Backbone.js [LocalTodo's](https://github.com/jeromegn/localtodos) application to Super.js. Checkout the [code on Github](https://github.com/maccman/super.todos).
 
 ##SuperClass
 
