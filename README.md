@@ -321,13 +321,14 @@ Sometimes you don't every record in a model to be shown. For example, perhaps we
 
 ###Builders
 
-Templates often aren't enough, so SuperConnect lets you set a custom builder. This gets called every time an item is rendered and is passed the jQuery element and the record.
-
-    var binder = $("#posts").connect(Post);
-    binder.builder = function(element, data){ 
-      element.find(".name").attr("title", data.name);
-    };
-    binder.render();
+Templates often aren't enough, so you can use a custom builder with SuperConnect. The __render__ event gets called on every item when it is rendered, and SuperConnect gives you a listener shortcut, __renderItem__. 
+    
+    // Attaches a delegate for the render event
+    $("#posts").renderItem(function(e, data){ 
+      $(this).find(".name").attr("title", data.name);
+    });
+    
+    $("#posts").connect(Post).render();
 
 ##Creating a contacts manager
 
