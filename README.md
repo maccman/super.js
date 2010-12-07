@@ -2,7 +2,7 @@ The Super.js libraries are a collection of classes that were originally written 
 
 ##Example Application
 
-I've ported Jerome Gravel-Niquet's excellent Backbone.js [LocalTodo's](https://github.com/jeromegn/localtodos) application to Super.js. Checkout the [code on Github](https://github.com/maccman/super.todos).
+I've ported Jerome Gravel-Niquet's excellent Backbone.js [LocalTodo's](https://github.com/jeromegn/localtodos) application to Super.js. Checkout the [code on Github](https://github.com/maccman/super.todos), especially the [tasks state](https://github.com/maccman/super.todos/blob/master/app/states/tasks.js).
 
 ##SuperClass
 
